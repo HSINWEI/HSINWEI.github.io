@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.cropped-caption {
+  width: 215px;
+  height: 15px;
+  border: 3px solid #bbb;
+}
+
+.cropped-image {
+  width: 215px;
+  height: 140px;
+  border: 3px solid #bbb;
+
+}
+
+.none-caption {
+  object-fit: none;
+}
+
+.position-caption-first {
+  object-position: -15px top;
+}
+
+.position-caption {
+  object-position: -115px top;
+}
+
+.position-image {
+  object-position: left bottom;
+}
+
+.none-image {
+  object-fit: none;
+}
+
+</style>
+</head>
+<body>
+<script>
+function write_datestr(offset) {
+    date = new Date();
+    date.setDate(date.getDate() + offset);
+    datestr = date.toLocaleDateString("en-US" ,{ weekday: 'long',year: 'numeric', month: 'long', day: 'numeric' });
+    document.write(datestr);
+}
+</script>
+
+
+<!-- row -->
+<div><script>write_datestr(0)</script>,<a href="https://www.imocwx.com/cwm.php?Area=1&Time=0" target="_blank">www.imocwx.com</a>,
+<a href="https://www.cwb.gov.tw/V8/C/M/OBS_Marine_plot.html?MID=46708A" target="_blank">OBS_Marine_plot</a></div>
+<div class="row">
+        <img class="cropped-caption none-caption position-caption-first" src="https://www.imocwx.com/cwm/cwmsjp_00.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_01.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_02.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_03.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_04.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_05.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_06.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_07.png">
+</div>
+<div class="row">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_00.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_01.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_02.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_03.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_04.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_05.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_06.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_07.png">
+</div>
+
+<!-- row -->
+<div><script>write_datestr(1)</script></div>
+<div class="row">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_08.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_09.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_10.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_11.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_12.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_13.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_14.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_15.png">
+</div>
+<div class="row">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_08.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_09.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_10.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_11.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_12.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_13.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_14.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_15.png">
+</div>
+
+<!-- row -->
+<div><script>write_datestr(2)</script></div>
+<div class="row">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_16.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_17.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_18.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_19.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_20.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_21.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_22.png">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_23.png">
+</div>
+<div class="row">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_16.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_17.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_18.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_19.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_20.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_21.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_22.png">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_23.png">
+</div>
+
+<!-- row -->
+<div><script>write_datestr(3)</script></div>
+<div class="row">
+        <img class="cropped-caption none-caption position-caption" src="https://www.imocwx.com/cwm/cwmsjp_24.png">
+</div>
+<div class="row">
+        <img class="cropped-image none-image position-image" src="https://www.imocwx.com/cwm/cwmsjp_24.png">
+</div>
+
+</body>
+</html>
